@@ -1,0 +1,27 @@
+body{
+    margin-left: 0px;
+}
+
+#contenu_menu{
+    position: absolute;
+    background: greenyellow;
+    top: 0px;
+    width: 60%;
+    max-width: 400px;
+    height: 100%;
+    transition: 0.5s;
+}
+
+#btn_menu{
+    position: relative;
+    margin-left: 20px;
+    z-index: 20;
+    cursor: pointer;
+    width: 0%;
+}
+
+/******** classe qui change ********/
+
+.rentrée{
+    transform: translateX(-100%);
+}
